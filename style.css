@@ -1,0 +1,43 @@
+body{
+    padding: 50px 100px;
+    background-color: aquamarine;
+}
+
+h1{
+    text-align: center;
+    background-color: cornflowerblue;
+    padding: 10px;
+    margin: 0px;
+}
+
+#textbox{
+    width:99.3%;
+    border-color: #0067b0;
+    font-size: 20px;
+    resize: none;
+}
+
+p{
+    text-align: center;
+    background-color: #0067b0;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+}
+
+@media screen and (max-width: 750px){
+    body{
+        padding: 0px;
+        background-color:aquamarine;
+        height: 100vh;
+        padding-top: 20px;
+    }
+
+    #textbox{
+        width: 97%;
+    }
+}
+
+
